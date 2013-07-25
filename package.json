@@ -1,6 +1,6 @@
 {
   "name": "request-retry",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Segment.io retrying request layer",
   "author": "Segment.io <friends@segment.io>",
   "engines": {
