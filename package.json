@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "description": "Segment.io retrying request layer",
   "author": "Segment.io <friends@segment.io>",
+  "repository": "https://github.com/segmentio/request-retry.git",
   "engines": {
     "node": ">= 0.8"
   },
