@@ -38,7 +38,7 @@ describe('requests', function () {
 
     createServer(function () {
 
-      it ('should be to recover from retries', function (done) {
+      it ('should recover from retries', function (done) {
 
         this.timeout((timeout * respondOn) + 1000);
 
