@@ -43,6 +43,19 @@ describe('request-retry', function () {
       });
     });
 
+    it('should not throw on bad unicode', function (done) {
+      var qs = String.fromCharCode(0xDC00);
+      var req = {
+        qs: qs,
+        url: 'http://google.com'
+      };
+      request.get(req, function (err, res) {
+        should.exist(err);
+        err.message.should.eql('URI malformed');
+        done();
+      });
+    });
+
     after(function (done) { server.close(done); });
   });
 
