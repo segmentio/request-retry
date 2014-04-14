@@ -1,6 +1,6 @@
 {
   "name": "request-retry",
-  "version": "0.1.1",
+  "version": "0.0.2",
   "description": "Segment.io retrying request layer",
   "author": "Segment.io <friends@segment.io>",
   "repository": "https://github.com/segmentio/request-retry.git",
