@@ -12,14 +12,17 @@
     "test": "mocha --reporter spec"
   },
   "dependencies": {
-    "request": "git://github.com/segmentio/request#no-agent",
     "defaults": "~1.0.0",
     "debug": "~0.7.2"
   },
+  "peerDependencies": {
+    "request": "^2"
+  },
   "devDependencies": {
-    "should": "*",
-    "mocha": "*",
-    "express": "*",
+    "express": "^4.15.3",
+    "mocha": "^3.4.1",
+    "request": "^2.81.0",
+    "should": "^11.2.1",
     "underscore": "~1.5.1"
   }
 }

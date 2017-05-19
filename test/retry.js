@@ -85,7 +85,7 @@ describe('requests', function () {
 
         request[method](req, function (err, response, body) {
           should.exist(err);
-          should.equal(err.code, 'ETIMEDOUT');
+          should.equal(err.code, 'ESOCKETTIMEDOUT');
           done();
         });
       });
